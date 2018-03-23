@@ -1,17 +1,49 @@
-# Watcher of Friends Online
+# Список друзей онлайн на VK.com
+Скрипт покажет, кто из ваших друзей онлайн в данный момент. 
+Введите логин и пароль от vk.com и получите список друзейн онлайн.
 
-[TODO. There will be project description]
-
-# How to Install
-
-Python 3 should be already installed. Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
-
+# Как работает 
 ```bash
-pip install -r requirements.txt # alternatively try pip3
+$ python vk_friends_online.py
+Ваша почта или телефон: mysecret@mail.com
+Ваш пароль:
+Друзей онлайн — 7
+Марк Цукерберг
+Илон Маск
+Павел Дуров
+Сергей Брин
+...
+```
+# Требования
+Совестимые OC:
+* Linux,
+* Windows
+* MacOS
+
+Скрипт требует для своей работы установленного интерпретатора Python версии 3.5 выше
+
+И  пакетов из requirements.txt
+```bash
+pip install -r requirements.txt # или командой pip3
 ```
 
-Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
+# Как запустить
+> Запуск для всех ОС одинаковый
 
-# Project Goals
+Стандатной командой `python` (на некоторых компьютерах `python3`).
+```bash
+$ python vk_friends_online.py
+```
+ Затем введите логин и пароль от аккаунта vk.com
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+```bash
+Ваша почта или телефон: <почта или телефон>
+Ваш пароль: <пароль>
+```
+
+
+Помните, рекомендуется использовать [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) для лучшего управления пакетами.
+
+# Цели проекта
+
+Код создан в учебных целях. В рамках учебного курса по веб-разработке - [DEVMAN.org](https://devman.org)
